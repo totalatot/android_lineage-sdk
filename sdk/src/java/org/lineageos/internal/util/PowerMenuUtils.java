@@ -30,6 +30,6 @@ public final class PowerMenuUtils {
                 LineageSettings.Secure.ADVANCED_REBOOT, 0) == 1;
         boolean isPrimaryUser = UserHandle.getCallingUserId() == UserHandle.USER_OWNER;
 
-        return advancedRestartEnabled && !keyguardLocked && isPrimaryUser;
+        return true;
     }
 }
