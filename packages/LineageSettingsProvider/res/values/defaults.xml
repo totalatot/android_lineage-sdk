@@ -42,6 +42,13 @@
     -->
     <integer name="def_battery_style">0</integer>
 
+    <!-- Default for LineageSettings.System.STATUS_BAR_SHOW_BATTERY_PERCENT
+         * 0: Hide the battery percent
+         * 1: Display the battery percent inside the icon
+         * 2: Display the battery percent next to the icon
+    -->
+    <integer name="def_show_battery_percent">2</integer>
+
     <!-- Default for LineageSettings.Secure.LOCKSCREEN_VISUALIZER_ENABLED -->
     <bool name="def_lockscreen_visualizer">true</bool>
 

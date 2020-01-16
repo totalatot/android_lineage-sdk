@@ -579,6 +579,9 @@ public class LineageDatabaseHelper extends SQLiteOpenHelper{
             loadIntegerSetting(stmt, LineageSettings.System.STATUS_BAR_BATTERY_STYLE,
                     R.integer.def_battery_style);
 
+            loadIntegerSetting(stmt, LineageSettings.System.STATUS_BAR_SHOW_BATTERY_PERCENT,
+                    R.integer.def_show_battery_percent);
+
             loadIntegerSetting(stmt, LineageSettings.System.STATUS_BAR_CLOCK,
                     R.integer.def_clock_position);
 
