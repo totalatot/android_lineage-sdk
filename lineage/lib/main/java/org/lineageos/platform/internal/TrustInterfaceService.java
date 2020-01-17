@@ -195,7 +195,7 @@ public class TrustInterfaceService extends LineageSystemService {
     private void runTestInternal() {
         int selinuxStatus = getSELinuxStatus();
         if (selinuxStatus != TrustInterface.TRUST_FEATURE_LEVEL_GOOD) {
-            postNotificationForFeatureInternal(TrustInterface.TRUST_WARN_SELINUX);
+            //postNotificationForFeatureInternal(TrustInterface.TRUST_WARN_SELINUX);
         }
 
         int keysStatus = getKeysStatus();
